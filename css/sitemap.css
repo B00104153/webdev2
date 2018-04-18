@@ -1,0 +1,46 @@
+body {
+	background-color: #f0f0f0;
+}
+
+div {
+	background-color: white;
+	width: 250px;
+	border: 15px black;
+	padding: 15px;
+	margin: 15px;
+}
+h1 {
+	float: left;
+}
+
+h2 {
+	text-align: center;
+	color: #595959;
+}
+
+
+nav ul {
+  list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+nav li {
+  float: right;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+}
+.a {
+	color: black;
+	text-decoration: black;
+	font-size: 30px;
+	text-align: center;
+	background-color: #f0f0f0;
+}

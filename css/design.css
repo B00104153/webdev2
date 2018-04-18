@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background-color: #f0f0f0;
+}
+
+ul {
+  list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+ li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+}
+
+h1 {
+	float: left;
+}
+
+h2 {
+	text-align: center;
+}
+
+div {
+	background-color: #f0f0f0;
+	text-align: center;
+}
+
+
+.column {
+    width: 100%;
+    padding: 10px;
+    height: 400px; 
+}
+
+div.gallery {
+	margin: 15px;
+	border: 30px #f0f0f0;
+	float: left;
+	width: 500px;
+	height: 600px;
+}
+
+
+
+
+
+

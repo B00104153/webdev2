@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+     <title> Marcin Grabicki </title>
+     <style>
+     @import 'css/index.css';
+     </style>
+	</head>
+<body>
+    
+<ul>
+   <li><a href="sitemap.html">Sitemap</a></li>
+   
+   <li><a href="more.html">More</a></li>
+
+   <li><a href="contact.html">Contact</a></li>
+
+   <li><a href="gallery.html">Gallery</a></li>
+
+   <li><a href="about.html">About</a></li>
+   
+   <li><a href="index.html">Home</a></li>
+
+   <h1><li><a href="index.html">Marcin Grabicki</a></li></h1>
+</ul>
+
+ <img class="mySlides w3-animate-fading" src="images/marcin.jpg" style="width:100%">
+ <img class="mySlides w3-animate-fading" src="images/plane.jpg" style="width:100%">
+ <img class="mySlides w3-animate-fading" src="images/palm.jpg" style="width:100%">
+ <img class="mySlides w3-animate-fading" src="images/photography/beach.jpg" style="width:100%">
+ <img class="mySlides w3-animate-fading" src="images/france.jpg" style="width:100%">
+ <script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 9000);    
+}
+</script>
+
+
+</body>
+</html>
+
+
+
+
